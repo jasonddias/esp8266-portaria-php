@@ -5,11 +5,11 @@
 #include <WiFiClient.h>
 #include <ESP8266WebServer.h>
 
-const char *ap_ssid     = "Claro_2.4G2222";
-const char *ap_password = "casa0133";
+const char *ap_ssid     = "CRIAR-AP";
+const char *ap_password = "CRIAR-CHAVE";
 
-const char *ssid     = "Claro_2.4G";  //-- TODO
-const char *password = "casa0133"; //-- TODO
+const char *ssid     = "SEU-WIFI";  //-- TODO
+const char *password = "SUA-CHAVE"; //-- TODO
 
 #define GPIO2_LED 2
 
