@@ -1,0 +1,11 @@
+CREATE TABLE Usuarios (
+Tag varchar(20) primary key,
+Nome varchar(80),
+Documento varchar(20)
+);
+CREATE TABLE Acessos (
+num integer primary key auto_increment,
+Tag varchar(20),
+foreign key (Tag) References Usuarios(Tag) ,
+recorded timestamp
+);
